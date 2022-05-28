@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&family=Roboto:wght@300;400&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+  margin: 0 padding: 0
+}
+
+.Mainimage {
+  border-radius: 100%;
+  width: 50px;
+}
+
+.nav-items {
+  margin-left: 10px;
+  border: 2px solid white;
+  border-radius: 100px;
+  padding: 2px 5px;
+  font-family: monospace;
+}
+
+#Home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#Home h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  top: 400px;
+  left: 550px;
+}
+
+.container p {
+  display: inline-block;
+  position: absolute;
+  left: 500px;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 972px;
+}
+
+img {
+  border-style: solid;
+  border-color: #73777B;
+}
+
+.about-img {
+  border-style: solid;
+  border-color: #73777B;
+  position: absolute;
+  top: 900px;
+}
+
+.about-me {
+  position: absolute !important;
+  top: 890px;
+  left: 500px;
+  right: 0px;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 0px;
+  height: 57px;
+  width: 208px;
+}
+
+.details {
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  position: absolute !important;
+  top: 1170px;
+  left: 470px;
+}
+
+.div-3 {
+  background-color: #413F42;
+  position: absolute;
+  top: 1500px !important;
+  width: 1519px!important;
+  height: 748px!important;
+}
+
+.facebook-link {
+  padding-left: 0px;
+  position: absolute;
+  top: 1326px;
+  margin-bottom: 0px;
+}
+
+.services-page {
+  color: white;
+}
+
+.services-heading {
+  position: absolute;
+  top: 20px;
+  left: 690px;
+}
+
+.card-1 {
+  position: absolute;
+  top: 169px;
+  left: 40px;
+}
+
+.card-2 {
+  position: absolute;
+  top: 1680px;
+  left: 600px;
+}
+
+.card-3 {
+  position: absolute;
+  top: 1680px;
+  left: 1150px;
+}
+
+@media (max-width:829px) {
+  #Home h1 {
+    position: absolute;
+    right: 9px;
+    left: 0px;
+    margin-bottom: 0px;
+    bottom: 57px;
+    font-size: 42px;
+  }
+
+  .about-img {
+    display: none;
+    margin: 0 auto;
+  }
+
+  .about-me {
+    position: absolute !important;
+    left: 98px;
+    right: 0px;
+    top: 804px;
+  }
+
+  .about-para {
+    position: absolute;
+    top: 862px !important;
+    left: 27px !important;
+    font-size: 27px !important;
+  }
+
+  .details {
+    display: none;
+    margin: 0 auto;
+    padding-left: 0px;
+    position: absolute;
+    top: 1540px;
+    left: 24px;
+    font-weight: bold;
+  }
+
+  #second-div {
+    height: 100vh;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  .div-3 {
+    height: 1800px !important;
+    width: 322px !important;
+  }
+
+  .services-heading {
+    position: absolute;
+    left: 118px;
+  }
+
+  .card-1 {
+    position: absolute;
+    top: 99px;
+    left: 15px;
+  }
+
+  .card-2 {
+    position: absolute;
+    top: 2140px!important;
+    left: 18px;
+  }
+
+  .card-3 {
+    position: absolute;
+    top: 2660px!important;
+    left: 18px;
+  }
+}
